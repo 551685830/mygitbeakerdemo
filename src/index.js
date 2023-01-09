@@ -18,7 +18,7 @@ const { ProjectsBundle } = require("gitlab");
 
 const services = new ProjectsBundle({
   token: "P5ckMva9XdKDcfVSAGDP",
-  host: "https://gitlab.ciic-cloud.com/"
+  host: "https://gitlab.cloud.com/",
 });
 
 services.Projects.all().then((data) => {
